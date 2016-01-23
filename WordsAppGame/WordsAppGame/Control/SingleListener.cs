@@ -56,6 +56,7 @@ namespace WordsAppGame.Control
                         // Get the velocity of the finger tip
                         //var tipVelocity = (int)finger.TipVelocity.Magnitude;
                         Hand hand = currentFrame.Hands.Frontmost;
+                        
                         // Use tipVelocity to reduce jitters when attempting to hold
                         // the cursor steady
                         if (finger.TipVelocity.Magnitude > 25)
@@ -106,10 +107,10 @@ namespace WordsAppGame.Control
                                     fingerPoint[0].g_Y = yScreenIntersect;
                                     fingerPoint[0].g_Z = zScreenIntersect;
                                     fingerPoint[0].isActive = true;
-                                    if (hand.IsLeft)
-                                        fingerPoint[0].numHand = true;
-                                    else
+                                    if (currentFrame.Hands.Leftmost.Equals(currentFrame.Hands.Rightmost))
                                         fingerPoint[0].numHand = false;
+                                    else
+                                        fingerPoint[0].numHand = true;
                                     //Console.WriteLine("leap x-axis: {0},y-axis: {1},z-axis: {2}", fingerPoint[0].g_X, fingerPoint[0].g_Y, fingerPoint[0].g_Z);
                                 }
                             }

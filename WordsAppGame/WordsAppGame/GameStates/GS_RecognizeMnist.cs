@@ -329,7 +329,7 @@ namespace WordsAppGame.GameStates
                         spriteBatch.Draw(objectMenu[0].getTexture(), squareToDrawPosition, Color.DarkRed);
                         colorToUse = Color.Yellow;
                     }
-
+                    else
                     //draw the white square at the given position, offset by the x- and y-offset, in the opacity desired
                     spriteBatch.Draw(objectMenu[0].getTexture(), squareToDrawPosition, colorToUse * opacity);
 
