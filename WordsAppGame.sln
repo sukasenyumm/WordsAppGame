@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsAppGame", "WordsAppGame\WordsAppGame\WordsAppGame.csproj", "{77F8849B-3170-408C-8339-A6BF3356A566}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "WordsAppGameContent", "WordsAppGame\WordsAppGameContent\WordsAppGameContent.contentproj", "{3CFF3BB5-B884-4AAC-957E-C8ECA78683C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F8849B-3170-408C-8339-A6BF3356A566}.Debug|x86.ActiveCfg = Debug|x86
+		{77F8849B-3170-408C-8339-A6BF3356A566}.Debug|x86.Build.0 = Debug|x86
+		{77F8849B-3170-408C-8339-A6BF3356A566}.Release|x86.ActiveCfg = Release|x86
+		{77F8849B-3170-408C-8339-A6BF3356A566}.Release|x86.Build.0 = Release|x86
+		{3CFF3BB5-B884-4AAC-957E-C8ECA78683C6}.Debug|x86.ActiveCfg = Debug|x86
+		{3CFF3BB5-B884-4AAC-957E-C8ECA78683C6}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
