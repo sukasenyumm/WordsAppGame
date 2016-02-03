@@ -60,7 +60,7 @@ namespace WordsAppGame.GameStates
 
         public override void Initialize()
         {
-            recog = new Recognition(@"D:\FIX\B1",true);
+            recog = new Recognition(@"D:\FIX\B5",true);
             base.Initialize();
         }
         public override void Update(GameTime gameTime)
